@@ -1,0 +1,77 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+  font-family: "Roboto", sans-serif;
+  background: url("https://images.pexels.com/photos/765062/pexels-photo-765062.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+}
+.container {
+  max-width: 1024px;
+  height: 100%;
+  margin: 0 auto;
+}
+.title {
+  color: white;
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  font-size: 20px;
+}
+.item {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 10px;
+}
+.card_item {
+  text-align: center;
+  padding: 5px;
+  width: 200px;
+  height: 270px;
+  border: none;
+  background-color: rgb(153, 204, 170);
+  border-radius: 10px;
+}
+.card_item h2 {
+  font-size: 20px;
+  margin-top: 10px;
+  color: rgb(46, 44, 42);
+}
+.card_item h4 {
+  color: rgb(46, 44, 42);
+  margin-top: 10px;
+}
+.card_img {
+  margin-top: 12px;
+  border-radius: 10px;
+  width: 150px;
+  height: 150px;
+}
+.page_item {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+li {
+  list-style: none;
+  border: 1px solid white;
+  background: black;
+  padding: 5px 10px;
+  margin: 20px;
+  cursor: pointer;
+}
+a {
+  text-decoration: none;
+  color: white;
+  font-size: bold;
+}
